@@ -1,0 +1,30 @@
+{
+  "name": "vector-path-tessellator",
+  "version": "1.0.0",
+  "description": "零依赖的 Node.js 二维路径几何与三角化库：SVG 路径解析、自适应曲线展开、仿射变换、填充规则与描边。",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "geometry",
+    "tessellation",
+    "svg-path",
+    "triangulation",
+    "stroke",
+    "fill-rule"
+  ],
+  "license": "MIT",
+  "files": [
+    "src",
+    "README.md"
+  ]
+}
